@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Playfair+Display&family=Roboto+Slab:wght@100;200;400&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.booking-link {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  /* font-family: "Roboto Slab", serif; */
+  /* background-image: linear-gradient(120deg, #5e6c3f 0%, #96e6a1 100%); */
+
+  font-size: 1.5rem;
+}
+
+.card-img {
+  object-fit: fill;
+}
+
+.card {
+  transition: transport 100ms ease-in;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.07);
+}
+
+.fs-5 {
+  font-family: "Roboto Slab", serif;
+}
+.contact-h4 {
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.carasol-h3 {
+  font-size: 1.3rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.tagline {
+  color: black;
+  word-spacing: 0.1rem;
+  font-size: 18px;
+  font-family: "Dancing Script", cursive;
+}
+.li {
+  font-weight: bold;
+  font-size: 2rem;
+  color: darkgoldenrod;
+}
+li:hover {
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+.li:hover {
+  color: black;
+}
+
+.tag-line {
+  font-size: 15px;
+  font-weight: bold;
+}
+.title {
+  font-weight: bold;
+}
+
+.para {
+  word-spacing: 1.7px;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.c-img {
+  height: 600px;
+}
+img {
+  width: 100%;
+}
+.logo-img {
+  width: 60px;
+  height: 60px;
+}
+.card {
+  width: 300px;
+}
+
+.hr-line {
+  margin-top: 1rem;
+  margin-bottom: 1 rem;
+  width: 200px;
+}
+
+.back-img {
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://t4.ftcdn.net/jpg/02/69/27/55/360_F_269275503_fL3Dx8hgvCDgrnuvbm8XLPHJ461QIM4o.jpg");
+  height: 50vh;
+  width: 100%;
+}
+
+h6 {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+h4 {
+  color: rgb(141, 235, 104);
+}
+.btn {
+  font-size: 1.5rem;
+  color: black;
+  padding: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row .col {
+  flex: 33.3%;
+  overflow: hidden;
+  width: auto;
+  padding: 0 4px;
+  height: 100%;
+}
+
+.row .col img {
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  transition: 0.3s linear;
+}
+.fw-bold {
+  font-family: "Roboto Slab", serif;
+}
+
+.row .col img:hover {
+  filter: grayscale(0) brightness(1);
+}
+
+a:hover {
+  color: olive;
+}
+
+.about-img {
+  width: 500px;
+}
+.error {
+  margin: 0 auto;
+  font-weight: 400;
+  text-align: center;
+  /* margin-top: 4rem;
+  margin-bottom: 4rem; */
+  height: 300px;
+  width: 600px;
+}
+
+.link {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.send-msg {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.form-container {
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-heading {
+  font-family: "Dancing Script", cursive;
+}
